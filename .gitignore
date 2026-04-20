@@ -1,0 +1,38 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Rust build
+target/
+Cargo.lock
+
+# Documentation
+docs/html/
+*.pdf
+
+# Logs
+*.log
+nexusvm.log
+
+# Runtime files
+*.vmx
+*.vmstate
+*.checkpoint
+*.snapshot
+
+# Temporary files
+/tmp/
+*.tmp
