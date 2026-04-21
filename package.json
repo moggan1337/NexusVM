@@ -1,0 +1,25 @@
+{
+  "name": "nexusvm",
+  "version": "1.0.0",
+  "description": "A comprehensive AI-powered development tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["ai", "automation", "development", "tools"],
+  "author": "moggan1337",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moggan1337/NexusVM"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

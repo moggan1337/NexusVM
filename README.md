@@ -1,12 +1,31 @@
 # NexusVM - Type-1 Hypervisor
 
 <p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/moggan1337/NexusVM/ci.yml?branch=main&style=for-the-badge" alt="CI">
   <img src="https://img.shields.io/badge/Type-1%20Hypervisor-2196F3?style=for-the-badge" alt="Type-1 Hypervisor">
   <img src="https://img.shields.io/badge/x86--64-FF5722?style=for-the-badge" alt="x86-64">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
 
 NexusVM is a production-ready Type-1 bare-metal hypervisor for x86-64 architectures. It leverages Intel VT-x and AMD-V hardware virtualization extensions to provide secure, high-performance virtualization with support for live migration, snapshots, and nested virtualization.
+
+## 🎬 Demo
+![NexusVM Demo](demo.gif)
+
+*Type-1 hypervisor with live migration*
+
+## Screenshots
+| Component | Preview |
+|-----------|---------|
+| VM Dashboard | ![vm](screenshots/vm-dashboard.png) |
+| Migration Status | ![migration](screenshots/migration.png) |
+| Performance Metrics | ![perf](screenshots/perf-metrics.png) |
+
+## Visual Description
+VM dashboard shows running virtual machines with resource usage. Migration status displays live migration progress with memory transfer. Performance metrics show CPU and I/O per VM.
+
+---
+
 
 ## Table of Contents
 
